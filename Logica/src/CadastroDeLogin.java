@@ -6,13 +6,12 @@ public class CadastroDeLogin {
         System.out.println("Digite o seu nome: ");
         String nome = nomeInput.next();
 
-
         if (nome.equals("") ||
                 nome.isBlank() ||
                 nome.equalsIgnoreCase("admin") ||
-                nome.equalsIgnoreCase("administrador")){
+                nome.equalsIgnoreCase("administrador")) {
             System.out.println("Usuário inválido");
-        }else {
+        } else {
             System.out.println("Cadastrado realizado com sucesso");
         }
     }
