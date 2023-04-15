@@ -1,3 +1,5 @@
+package academy.devdojo.variaveis;
+
 import java.util.Scanner;
 /*
 >> Reutilizando variáveis
