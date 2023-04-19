@@ -16,7 +16,8 @@ public class Aula04Login {
             if (loginInput.equals(loginInput) && passwordInput.equals(password)) {
                 System.out.println("ACESSO CONCEDIDO");
                 exibirTelaLogin = false;
-            } else { 
+                break;
+            } else {
                 System.out.println("ACESSO NEGADO");
             }
         }
